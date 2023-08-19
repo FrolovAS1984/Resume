@@ -19,11 +19,9 @@ html {
 
 .header-container {
     height: 70px;
+    width: 100%;
     background-color: var(--color-dark);
-
-
 }
-
 .menu {
     display: flex;
     align-items: center;
@@ -31,10 +29,8 @@ html {
     margin: 0 auto;
     height: 70px;
 }
-
 .logo img {
     width: 50px;
-
 }
 
 .elem-1 {
@@ -51,8 +47,6 @@ html {
     margin: 0 auto;
 }
 
-
-
 h1 {
     color: var(--color-blue);
     margin-bottom: 0.25em;
@@ -63,7 +57,6 @@ h2 {
     font-size: 1em;
     margin-top: 0;
     margin-bottom: 1em;
-
 }
 h3 {
     color: var(--color-blue);
@@ -73,6 +66,7 @@ a {
     color: var(--color-blue);
     text-decoration: none;
 }
+
 
 
 .about {
@@ -108,18 +102,14 @@ a {
 .experience {
     display: flex;
     margin-bottom: 2em;
-    
 }
-
 .experience__date {
     width: 160px;
     margin-bottom: 1em;
     margin-right: 100px;
-
 }
 .experience__description {
     width: 950px;
-
 }
 .experience__company {
     margin-bottom: 1em;
@@ -128,34 +118,29 @@ a {
 .experience__name {
     font-weight: bold;
     margin-bottom: 1em;
-
 }
+
 
 .skills {
     margin-top: 2em;
 }
-
 .skills-container {
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: auto;
     grid-gap: 0.5vw;
-
 }
-
 .skills-item {
     background-color: var(--color-light_grey);
     border-radius: 4px;
     border: 1px;
     padding: 10px;
-
 }
+
 
 .description {
     margin-top: 2em;
 }
-
 .collapsible {
     cursor: pointer;
     outline: none;
@@ -173,34 +158,30 @@ a {
     display: flex;
     margin-bottom: 2em;
 }
-
 .education__date {
     width: 160px;
     margin-bottom: 1em;
     margin-right: 100px;
-
 }
 .education__description {
     width: 950px;
-
 }
 .education__company {
     margin-bottom: 1em;
     font-weight: bold;
 }
 .education__specialization {
-
     margin-bottom: 1em;
 }
+
+
 
 .lang {
     margin-top: 2em;
 }
-
 .lang-container {
     display: flex;
 }
-
 .lang-item {
     background-color: var(--color-light_grey);
     border-radius: 4px;
@@ -208,11 +189,13 @@ a {
     position: relative;
     margin-right: 20px;
     padding: 10px;
-
 }
 
 @media all and (max-width: 700px) {
     .experience {
+        display: block;
+    }
+    .education {
         display: block;
     }
 
