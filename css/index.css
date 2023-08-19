@@ -11,6 +11,15 @@
     src: url("https://fonts.gstatic.com/s/gloriahallelujah/v8/CA1k7SlXcY5kvI81M_R28cNDay8z-hHR7F16xrcXsJw.woff2");
 }
 
+@media all and (max-width: 700px) {
+    .experience {
+        display: block;
+    }
+    .education {
+        display: block;
+    }
+
+}
 
 html {
     font-family: 'My Web Font',Arial,Helvetica Neue,sans-serif;
@@ -20,6 +29,7 @@ html {
 .header-container {
     height: 70px;
     width: 100%;
+    margin: 0;
     background-color: var(--color-dark);
 }
 .menu {
@@ -191,12 +201,3 @@ a {
     padding: 10px;
 }
 
-@media all and (max-width: 700px) {
-    .experience {
-        display: block;
-    }
-    .education {
-        display: block;
-    }
-
-}
