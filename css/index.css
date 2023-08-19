@@ -1,0 +1,201 @@
+:root {
+    --color-blue: #2f80ed;
+    --color-dark: #333333;
+    --color-black_light: #959799;
+    --color-light: #f8f9fa;
+    --color-light_grey: #edeff0;
+}
+
+@font-face {
+    font-family: 'My Web Font';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tektur&display=swap');
+}
+
+
+html {
+    font-family: 'My Web Font',Arial,Helvetica Neue,sans-serif;
+}
+
+
+.header-container {
+    height: 70px;
+    background-color: var(--color-dark);
+
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.logo img {
+    width: 50px;
+
+}
+
+.elem-1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    color: var(--color-blue);
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color: var(--color-dark);
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+
+}
+h3 {
+    color: var(--color-blue);
+}
+
+a {
+    color: var(--color-blue);
+    text-decoration: none;
+}
+
+
+.about {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.my-foto img {
+    width: 150px;
+}
+.contacts {
+    margin-bottom: 2em;
+}
+.contact {
+    display: flex;
+}
+.contact_type {
+    min-width: 90px;
+    margin-bottom: 1em;
+}
+
+
+
+.specialization {
+    margin-top: 2em;
+}
+
+
+.exp {
+    margin-top: 2em;
+}
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+
+}
+
+.experience__date {
+    width: 160px;
+    margin-bottom: 1em;
+    margin-right: 100px;
+
+}
+.experience__description {
+    width: 950px;
+
+}
+.experience__company {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.experience__name {
+    font-weight: bold;
+    margin-bottom: 1em;
+
+}
+
+.skills {
+    margin-top: 2em;
+}
+
+.skills-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 0.5vw;
+
+}
+
+.skills-item {
+    background-color: var(--color-light_grey);
+    border-radius: 4px;
+    border: 1px;
+    padding: 10px;
+
+}
+
+.description {
+    margin-top: 2em;
+}
+.educations {
+    margin-top: 2em;
+}
+.education {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.education__date {
+    width: 160px;
+    margin-bottom: 1em;
+    margin-right: 100px;
+
+}
+.education__description {
+    width: 950px;
+
+}
+.education__company {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.education__specialization {
+
+    margin-bottom: 1em;
+}
+
+.lang {
+    margin-top: 2em;
+}
+
+.lang-container {
+    display: flex;
+}
+
+.lang-item {
+    background-color: var(--color-light_grey);
+    border-radius: 4px;
+    border: 1px;
+    position: relative;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
